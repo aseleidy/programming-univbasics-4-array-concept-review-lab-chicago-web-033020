@@ -16,12 +16,13 @@ def find_max_value(array)
   array.length.times do |index|
       first_number = array[index]
       second_number = array[index + 1]
-      []
+      new_array = [2]
+      
       if (first_number > second_number)
-          p [].push(first_number)
+          new_array.push(first_number)
       end
       
-      p [].push(second_number)
+      p new_array.push(second_number)
   
   end
   
