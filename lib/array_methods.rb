@@ -16,22 +16,16 @@ def find_max_value(array)
   array.length.times do |index|
       first_number = array[index]
       second_number = array[index + 1]
+      []
       if (first_number > second_number)
-          p first_number
+          p [].push(first_number)
       end
       
-      p second_number
-  # take the first number and compare it to second 
-    if array[counter] > array[counter + 1] 
-      # select greatest of the two
-      p array[counter]
-    else
-      p array[counter + 1]
-    end
-    
-    counter += 1
-  # compare greatest to next number 
+      p [].push(second_number)
+  
   end
+  
+  return 
 end
 
 def find_min_value(array)
