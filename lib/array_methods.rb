@@ -17,7 +17,7 @@ def find_max_value(array)
   array.length.times do |number|
       if (number > base)
           base = number
-        else if (number < base)
+        elseif (number < base)
           
       end
   # take the first number and compare it to second 
