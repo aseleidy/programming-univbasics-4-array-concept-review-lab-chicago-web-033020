@@ -12,21 +12,17 @@ end
 
 def find_max_value(array)
   # Add your solution here
+  max = array[0]
   
   array.length.times do |index|
-      first_number = array[index]
-      second_number = array[index + 1]
-      new_array = [2]
-      
-      if (first_number > second_number)
-          new_array.push(first_number)
+    
+      if (array[index] > max)
+          max = array[index]
       end
-      
-      p new_array.push(second_number)
+    
   
   end
-  
-  return 
+  return max
 end
 
 def find_min_value(array)
