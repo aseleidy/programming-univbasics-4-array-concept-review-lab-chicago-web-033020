@@ -14,10 +14,10 @@ def find_max_value(array)
   # Add your solution here
   base = array[0] 
   
-  array.length.times do |number|
+  array.length.times do |index|
+      second_number = array[index + 1]
       if (number > base)
           base = number
-        elseif (number < base)
           
       end
   # take the first number and compare it to second 
